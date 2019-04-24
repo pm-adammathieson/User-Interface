@@ -64,3 +64,84 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header{
+	text-align: center;
+	position: sticky;
+	top:1px;
+	background-color:white;
+}
+nav{
+	color:lightgray;
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	
+	max-height: 200px;
+	padding:1em .5em;
+}
+nav>*{
+	display: inline-block;
+	box-sizing: border-box;
+}
+nav a{
+	color:lightgray;
+	text-decoration: none;
+	margin:0 2.5em;
+	padding:1em 0;
+}
+header img{
+	background-color: white;
+	position: relative;
+	top:10px;
+}
+
+#central section, #central img{
+	display:inline-block;
+	max-width:49.5%;
+}
+#central{
+	width: 100%;
+	max-height: 400px;
+	margin-top:1em;
+}
+#central section{
+	width:49%;
+	margin:auto;
+	text-align:center;
+	padding-bottom: 10em;
+	vertical-align: middle;
+	font-size:24pt;
+}
+section button{
+	margin-top:2em;
+	font-size: 12pt;
+}
+
+#main{
+	width:100%;
+	text-align: center;
+}
+#main img{
+	margin:auto;
+}
+#main section{
+	text-align: left;
+	display: inline-block;
+}
+#line1 section{
+	width: 49%;
+	padding:1em 0;
+}
+#line2 section{
+	width: 32%;
+	padding: 1em 0;
+}
+body{
+	padding:0 1em;
+}
+
+footer{
+	margin-top: 3em;
+	text-align: center;
+}
